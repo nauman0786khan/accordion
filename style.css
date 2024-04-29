@@ -1,0 +1,10 @@
+.accordion h2{
+padding:40px;
+background-color: #f1f1f1;
+cursor: pointer;
+}
+
+.inner{
+display: none;
+
+}
