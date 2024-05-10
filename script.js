@@ -1,16 +1,15 @@
-// let ddc = document.getElementsByClassName("accordion");
-// console.log(ddc);
-//    for(i=0; i < ddc.length; i++){
-//       console.log(i)
-//       ddc[i].addEventListener("click" , function(){
+const ddc = document.querySelectorAll(".accordion");
+console.log(ddc);
+   for(let i=0; i < ddc.length; i++){
+    
+     
+      ddc[i].addEventListener("click" , function(){
+console.log()
 
+ ddc.forEach((e)=> {
+ e.classList.remove("active") 
+});
+this.classList.add("active");
 
-// // ddc.forEach((e) => {
-// //     ddc.classList.remove("active")
-// // });
-
-// this.classList.add("active");
-
-// })
-//    }
-
+})
+   }
