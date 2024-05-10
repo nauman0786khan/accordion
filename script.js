@@ -1,14 +1,16 @@
-let ddc = document.getElementsByClassName("accordion");
-console.log(ddc);
-var  i;
-for(i=0; i<=ddc.length; i++){
- ddc[i].addEventListener("click" , function(e){
-    console.log(e);
-e.forEach( function() {
-     ddc.child.classLisnt.remove("active")
-});
-    
-})
+// let ddc = document.getElementsByClassName("accordion");
+// console.log(ddc);
+//    for(i=0; i < ddc.length; i++){
+//       console.log(i)
+//       ddc[i].addEventListener("click" , function(){
 
 
-}
+// // ddc.forEach((e) => {
+// //     ddc.classList.remove("active")
+// // });
+
+// this.classList.add("active");
+
+// })
+//    }
+
